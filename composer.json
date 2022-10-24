@@ -26,14 +26,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Wikimedia\\Composer\\Merge\\V2\\": "src/"
+            "Megaads\\Composer\\Merge\\V2\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
              "dev-master": "2.x-dev"
         },
-        "class": "Wikimedia\\Composer\\Merge\\V2\\MergePlugin"
+        "class": "Megaads\\Composer\\Merge\\V2\\MergePlugin"
     },
     "config": {
         "optimize-autoloader": true,

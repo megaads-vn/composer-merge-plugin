@@ -2,13 +2,13 @@
 /**
  * This file is part of the Composer Merge plugin.
  *
- * Copyright (C) 2015 Bryan Davis, Wikimedia Foundation, and contributors
+ * Copyright (C) 2015 Bryan Davis, Megaads Foundation, and contributors
  *
  * This software may be modified and distributed under the terms of the MIT
  * license. See the LICENSE file for details.
  */
 
-namespace Wikimedia\Composer\Merge\V2;
+namespace Megaads\Composer\Merge\V2;
 
 use Composer\Composer;
 use Composer\Config;
@@ -39,12 +39,12 @@ use ReflectionClass;
 use ReflectionProperty;
 
 /**
- * @covers \Wikimedia\Composer\Merge\V2\Logger
- * @covers \Wikimedia\Composer\Merge\V2\ExtraPackage
- * @covers \Wikimedia\Composer\Merge\V2\NestedArray
- * @covers \Wikimedia\Composer\Merge\V2\PluginState
- * @covers \Wikimedia\Composer\Merge\V2\StabilityFlags
- * @covers \Wikimedia\Composer\Merge\V2\MergePlugin
+ * @covers \Megaads\Composer\Merge\V2\Logger
+ * @covers \Megaads\Composer\Merge\V2\ExtraPackage
+ * @covers \Megaads\Composer\Merge\V2\NestedArray
+ * @covers \Megaads\Composer\Merge\V2\PluginState
+ * @covers \Megaads\Composer\Merge\V2\StabilityFlags
+ * @covers \Megaads\Composer\Merge\V2\MergePlugin
  */
 class MergePluginTest extends TestCase
 {

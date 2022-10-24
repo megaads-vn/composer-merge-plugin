@@ -3,13 +3,13 @@
 /**
  * This file is part of the Composer Merge plugin.
  *
- * Copyright (C) 2021 Bryan Davis, Wikimedia Foundation, and contributors
+ * Copyright (C) 2021 Bryan Davis, Megaads Foundation, and contributors
  *
  * This software may be modified and distributed under the terms of the MIT
  * license. See the LICENSE file for details.
  */
 
-namespace Wikimedia\Composer\Merge\V2;
+namespace Megaads\Composer\Merge\V2;
 
 use Composer\Semver\Constraint\ConstraintInterface;
 use Composer\Semver\Constraint\EmptyConstraint;
