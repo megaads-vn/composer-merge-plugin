@@ -1,18 +1,18 @@
 {
-    "name": "wikimedia/composer-merge-plugin",
+    "name": "megaads/composer-merge-plugin",
     "description": "Composer plugin to merge multiple composer.json files",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bryan Davis",
-            "email": "bd808@wikimedia.org"
+            "name": "Megaads",
+            "email": "info@megaads.vn"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=7.0.*",
         "composer-plugin-api": "^1.1||^2.0"
     },
     "require-dev": {
