@@ -80,12 +80,12 @@ class MergePlugin implements PluginInterface, EventSubscriberInterface
     /**
      * Official package name
      */
-    public const PACKAGE_NAME = 'megaads/composer-merge-plugin';
+    const PACKAGE_NAME = 'megaads/composer-merge-plugin';
 
     /**
      * Priority that plugin uses to register callbacks.
      */
-    private const CALLBACK_PRIORITY = 50000;
+    const CALLBACK_PRIORITY = 50000;
 
     /**
      * @var Composer $composer
